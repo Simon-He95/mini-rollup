@@ -2,12 +2,19 @@
   "name": "mini-rollup",
   "version": "1.0.0",
   "description": "",
-  "main": "rollup.config.js",
+  "main": "./core/index.js",
   "scripts": {
-    "build": "esno ./bundler/index.ts",
-    "dev": "esno ./bundler/scope.ts"
+    "build": "esno ./core/index.ts"
   },
-  "keywords": [],
+  "keywords": [
+    "mini-rollup",
+    "rollup",
+    "bundle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ git@github.com:Simon-He95/mini-rollup.git"
+  },
   "author": "Simon <13917107469@163.com> (https://github.com/Simon-He95)",
   "license": "MIT",
   "devDependencies": {
